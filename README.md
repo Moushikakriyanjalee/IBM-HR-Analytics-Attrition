@@ -8,13 +8,13 @@ In today’s competitive business environment, employees are a company's most va
 
 This project analyzes the **IBM HR Analytics Employee Attrition & Performance** dataset to identify the root causes of employee turnover. The analysis reveals an overall attrition rate of **16.12%**, meaning roughly 1 in 6 employees left during the period analyzed.
 
-**The Objective:** To use Python-based data analytics to determine if factors such as **lower income**, **excessive overtime**, and **specific job roles** are statistically linked to higher turnover, and to provide actionable recommendations for HR retention strategies.
+**The Objective:** To use Python-based data analytics to determine which factors are statistically linked to higher turnover, and to provide actionable recommendations for HR retention strategies.
 ---
 
 ## 📂 Data Set
 
 ### Data Source
-* **Dataset:** IBM HR Analytics Employee Attrition & Performance.
+* **Dataset:** IBM HR Analytics Employee Attrition & Performance. https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset 
 * **Size:** 1,470 rows and 35 features.
 * **Content:** Demographic, operational, and sentimental data points.
 ---
@@ -28,10 +28,13 @@ To ensure accuracy, the following cleaning steps were performed:
 * **Missing Value Check:** Confirmed the dataset had no null values; no imputation was required.
 
 ### 02.Exploratory Data Analysis (EDA): 
-* Visualizing distributions of age, income, and department.
+* Visualizations created to identify patterns and trends. This step helped detect relationships between attrition and factors like overtime, salary, and job roles.
 
 ### 03.Statistical Validation:
 * Using Pearson Correlation matrices and Independent T-Tests to separate random noise from meaningful patterns.
+
+### 04. Interpretation and Insights
+* The results from visual and statistical analysis were interpreted to identify the main drivers of attrition.
 ---
 
 ## 🔍 Key Findings
